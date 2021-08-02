@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_bords",
+  "info": {
+    "name": "User Bord",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "datetime"
+    },
+    "activities": {
+      "collection": "activity",
+      "via": "user_bords",
+      "dominant": true
+    }
+  }
+}

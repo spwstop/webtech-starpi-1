@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rewards",
+  "info": {
+    "name": "Reward"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "point": {
+      "type": "integer"
+    }
+  }
+}

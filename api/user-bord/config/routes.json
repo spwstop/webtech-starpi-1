@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/user-bords",
+      "handler": "user-bord.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-bords/count",
+      "handler": "user-bord.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-bords/:id",
+      "handler": "user-bord.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/user-bords",
+      "handler": "user-bord.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/user-bords/:id",
+      "handler": "user-bord.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/user-bords/:id",
+      "handler": "user-bord.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
