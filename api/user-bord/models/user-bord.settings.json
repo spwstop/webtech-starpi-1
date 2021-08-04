@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "user_bords",
   "info": {
-    "name": "User Bord",
+    "name": "User Board",
     "description": ""
   },
   "options": {
