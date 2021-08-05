@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "activities",
   "info": {
-    "name": "Activity"
+    "name": "Activity",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,17 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "activity_name": {
       "type": "string",
       "required": false
     },
-    "point": {
+    "activity_point": {
       "type": "integer",
       "required": true
     },
-    "user_bords": {
+    "activity_date": {
+      "type": "datetime"
+    },
+    "users": {
       "via": "activities",
-      "collection": "user-bord"
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "total_reward": {
+      "type": "integer",
+      "default": 1
     }
   }
 }

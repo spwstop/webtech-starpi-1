@@ -17,6 +17,15 @@
     },
     "point": {
       "type": "integer"
+    },
+    "total_reward": {
+      "type": "integer",
+      "default": 1
+    },
+    "users": {
+      "via": "rewards",
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }

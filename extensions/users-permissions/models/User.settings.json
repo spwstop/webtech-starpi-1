@@ -66,6 +66,16 @@
     },
     "date": {
       "type": "datetime"
+    },
+    "activities": {
+      "via": "users",
+      "collection": "activity",
+      "dominant": true
+    },
+    "rewards": {
+      "collection": "reward",
+      "via": "users",
+      "dominant": true
     }
   }
 }
