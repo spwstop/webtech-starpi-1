@@ -23,9 +23,13 @@
       "default": 1
     },
     "users": {
-      "via": "rewards",
       "plugin": "users-permissions",
-      "collection": "user"
+      "collection": "user",
+      "via": "reward"
+    },
+    "records": {
+      "via": "reward",
+      "collection": "records"
     }
   }
 }

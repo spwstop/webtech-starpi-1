@@ -24,13 +24,13 @@
       "type": "datetime"
     },
     "users": {
-      "via": "activities",
+      "via": "activity",
       "plugin": "users-permissions",
       "collection": "user"
     },
-    "total_reward": {
-      "type": "integer",
-      "default": 1
+    "records": {
+      "via": "activity",
+      "collection": "records"
     }
   }
 }

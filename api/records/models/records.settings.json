@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "records",
+  "info": {
+    "name": "records",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_date": {
+      "type": "datetime"
+    },
+    "reward": {
+      "model": "reward",
+      "via": "records"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "records"
+    },
+    "activity": {
+      "via": "records",
+      "model": "activity"
+    }
+  }
+}

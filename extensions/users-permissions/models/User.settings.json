@@ -67,15 +67,17 @@
     "date": {
       "type": "datetime"
     },
-    "activities": {
+    "reward": {
       "via": "users",
-      "collection": "activity",
-      "dominant": true
+      "model": "reward"
     },
-    "rewards": {
-      "collection": "reward",
+    "activity": {
       "via": "users",
-      "dominant": true
+      "model": "activity"
+    },
+    "records": {
+      "via": "users_permissions_user",
+      "collection": "records"
     }
   }
 }
