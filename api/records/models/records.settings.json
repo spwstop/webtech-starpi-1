@@ -20,9 +20,9 @@
       "via": "records"
     },
     "users_permissions_user": {
+      "via": "records",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "records"
+      "model": "user"
     },
     "activity": {
       "via": "records",

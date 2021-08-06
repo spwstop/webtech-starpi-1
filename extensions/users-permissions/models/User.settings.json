@@ -59,7 +59,7 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "point": {
+    "user_point": {
       "default": 0,
       "required": false,
       "type": "integer"
@@ -78,6 +78,9 @@
     "records": {
       "via": "users_permissions_user",
       "collection": "records"
+    },
+    "use_point": {
+      "type": "integer"
     }
   }
 }
