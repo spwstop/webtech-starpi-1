@@ -59,7 +59,7 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "point": {
+    "user_point": {
       "default": 0,
       "required": false,
       "type": "integer"
@@ -77,7 +77,14 @@
     },
     "redeemeds": {
       "via": "users_permissions_user",
+<<<<<<< HEAD
       "collection": "redeemed"
+=======
+      "collection": "records"
+    },
+    "use_point": {
+      "type": "integer"
+>>>>>>> 241e51c75cabd6ab5956bff1ff385dda60ea7d3c
     }
   }
 }
