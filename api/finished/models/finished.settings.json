@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "records",
+  "collectionName": "finisheds",
   "info": {
-    "name": "records",
+    "name": "Finished",
     "description": ""
   },
   "options": {
@@ -12,21 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "record_date": {
-      "type": "datetime"
-    },
-    "reward": {
-      "model": "reward",
-      "via": "records"
+    "activity": {
+      "model": "activity",
+      "via": "finisheds"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "records"
-    },
-    "activity": {
-      "via": "records",
-      "model": "activity"
+      "via": "finisheds"
     }
   }
 }

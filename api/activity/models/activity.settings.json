@@ -23,14 +23,9 @@
     "activity_date": {
       "type": "datetime"
     },
-    "users": {
+    "finisheds": {
       "via": "activity",
-      "plugin": "users-permissions",
-      "collection": "user"
-    },
-    "records": {
-      "via": "activity",
-      "collection": "records"
+      "collection": "finished"
     }
   }
 }

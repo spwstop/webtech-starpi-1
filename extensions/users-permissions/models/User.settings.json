@@ -71,13 +71,13 @@
       "via": "users",
       "model": "reward"
     },
-    "activity": {
-      "via": "users",
-      "model": "activity"
-    },
-    "records": {
+    "finisheds": {
       "via": "users_permissions_user",
-      "collection": "records"
+      "collection": "finished"
+    },
+    "redeemeds": {
+      "via": "users_permissions_user",
+      "collection": "redeemed"
     }
   }
 }

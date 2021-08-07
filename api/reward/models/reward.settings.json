@@ -27,9 +27,9 @@
       "collection": "user",
       "via": "reward"
     },
-    "records": {
+    "redeemeds": {
       "via": "reward",
-      "collection": "records"
+      "collection": "redeemed"
     }
   }
 }

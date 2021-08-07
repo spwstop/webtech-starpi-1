@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/redeemeds",
+      "handler": "redeemed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/redeemeds/count",
+      "handler": "redeemed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/redeemeds/:id",
+      "handler": "redeemed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/redeemeds",
+      "handler": "redeemed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/redeemeds/:id",
+      "handler": "redeemed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/redeemeds/:id",
+      "handler": "redeemed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
