@@ -17,18 +17,9 @@
       "via": "finisheds"
     },
     "users_permissions_user": {
-      "via": "records",
       "plugin": "users-permissions",
-<<<<<<< HEAD:api/finished/models/finished.settings.json
       "model": "user",
       "via": "finisheds"
-=======
-      "model": "user"
-    },
-    "activity": {
-      "via": "records",
-      "model": "activity"
->>>>>>> 241e51c75cabd6ab5956bff1ff385dda60ea7d3c:api/records/models/records.settings.json
     }
   }
 }
