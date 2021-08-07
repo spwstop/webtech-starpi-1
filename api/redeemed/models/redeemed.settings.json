@@ -13,9 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "users_permissions_user": {
+      "via": "redeemeds",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "redeemeds"
+      "model": "user"
     },
     "reward": {
       "model": "reward",

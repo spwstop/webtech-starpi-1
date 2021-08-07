@@ -17,9 +17,9 @@
       "via": "finisheds"
     },
     "users_permissions_user": {
+      "via": "finisheds",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "finisheds"
+      "model": "user"
     }
   }
 }

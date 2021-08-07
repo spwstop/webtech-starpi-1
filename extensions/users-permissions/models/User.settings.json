@@ -78,6 +78,12 @@
     "redeemeds": {
       "via": "users_permissions_user",
       "collection": "redeemed"
+    },
+    "use_point": {
+      "type": "integer"
+    },
+    "user_point": {
+      "type": "integer"
     }
   }
 }

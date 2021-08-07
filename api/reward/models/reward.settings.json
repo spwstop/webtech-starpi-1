@@ -23,9 +23,9 @@
       "default": 1
     },
     "users": {
+      "via": "reward",
       "plugin": "users-permissions",
-      "collection": "user",
-      "via": "reward"
+      "collection": "user"
     },
     "redeemeds": {
       "via": "reward",
