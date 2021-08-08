@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,8 +18,8 @@
       "model": "user"
     },
     "reward": {
-      "model": "reward",
-      "via": "redeemeds"
+      "via": "redeemeds",
+      "model": "reward"
     }
   }
 }

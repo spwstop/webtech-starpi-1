@@ -15,12 +15,8 @@
     "name_rewards": {
       "type": "string"
     },
-    "point": {
+    "reward_point": {
       "type": "integer"
-    },
-    "total_reward": {
-      "type": "integer",
-      "default": 1
     },
     "users": {
       "via": "reward",
@@ -30,6 +26,9 @@
     "redeemeds": {
       "via": "reward",
       "collection": "redeemed"
+    },
+    "total_reward": {
+      "type": "integer"
     }
   }
 }
